@@ -1,4 +1,4 @@
-Django To-Do App (Dockerized)
+#Django To-Do App (Dockerized)
 
 A simple To-Do List application built with Django and containerized with Docker.
 
@@ -17,7 +17,7 @@ Auto migrations & optional auto-superusertodoproject/
 │── entrypoint.sh
 │── requirements.txt
 │── manage.py
-│
+
 ├── todoproject/
 │   ├── __init__.py
 │   ├── settings.py
@@ -34,7 +34,8 @@ Auto migrations & optional auto-superusertodoproject/
     └── templates/todo/
         ├── base.html
         └── index.html
-Build the Docker image
+        
+#Build the Docker image
 docker build -t django-todo .
 
 Run the container
