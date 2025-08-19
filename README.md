@@ -39,7 +39,7 @@ Auto migrations & optional auto-superusertodoproject/
 docker build -t django-todo .
 
 Run the container
-docker run -d -p 8000:8000 --name todo_app django-todo
+docker run -d -p 8000:8000 django-todo:latest 
 
 Automatic Migrations
 
